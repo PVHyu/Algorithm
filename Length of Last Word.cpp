@@ -21,5 +21,5 @@ int lengthOfLastWord(string s) {
 
 int main() {
     string s = "   fly me   to   the moon  ";
-    cout << lengthOfLastWord(s);  // Output: 4
+    cout << lengthOfLastWord(s);  
 }
