@@ -4,7 +4,6 @@ using namespace std;
 
 int lengthOfLastWord(string s) {
     int i = s.size() - 1;
-    cout << "Input string size: " << s.size() << endl;
     int length = 0;
 
     // Bỏ khoảng trắng ở cuối
@@ -17,7 +16,6 @@ int lengthOfLastWord(string s) {
         length++;
         i--;
     }
-
     return length;
 }
 
