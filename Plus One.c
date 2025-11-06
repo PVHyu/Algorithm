@@ -31,7 +31,6 @@ int main() {
     }
     printf("\n");
 
-    // Nếu hàm trả về mảng mới, nên free
     if (returnSize > digitsSize)
         free(result);
 
